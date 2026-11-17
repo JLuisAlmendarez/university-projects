@@ -1,0 +1,92 @@
+# =========================
+# PYTHON
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Extensiones compiladas
+*.so
+
+# Distribución / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# =========================
+# ENTORNOS VIRTUALES
+# =========================
+.env
+.venv
+env/
+venv/
+ENV/
+
+# =========================
+# JUPYTER
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# LOGS
+# =========================
+*.log
+
+# =========================
+# CACHE
+# =========================
+.cache/
+.pytest_cache/
+.mypy_cache/
+
+# =========================
+# IDEs / EDITORES
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# SISTEMA
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# DATOS PESADOS (TU CASO)
+# =========================
+datasets/
+*.npz
+*.npy
+*.h5
+*.hdf5
+
+# =========================
+# MODELOS (ML)
+# =========================
+*.pt
+*.pth
+*.ckpt
+
+# =========================
+# OTROS
+# =========================
+*.csv
+*.parquet
+
+tasks/media/
+*.gif
